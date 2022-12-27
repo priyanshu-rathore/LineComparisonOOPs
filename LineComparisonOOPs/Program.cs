@@ -7,7 +7,7 @@ namespace LineComparisonOOPs{
             System.Console.WriteLine("");
             LineComparisonOOPs line = new LineComparisonOOPs();
 
-            line.EqualityOfTwoLines();
+            line.CompareLines();
 
         }
     }

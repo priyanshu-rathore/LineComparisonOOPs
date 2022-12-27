@@ -57,6 +57,29 @@ namespace LineComparisonOOPs
             }
         }
 
+        public void CompareLines()
+        {
+            int lineOne = (int)length();
+            int lineTwo = (int)length();
+
+            int compareLines = lineOne.CompareTo(lineTwo);
+
+            if (compareLines == 0)
+            {
+                System.Console.WriteLine("lines are equal");
+            }
+            else if (compareLines > 0)
+            {
+                System.Console.WriteLine($"{lineOne} is greater than {lineTwo}");
+            }
+            else
+            {
+                System.Console.WriteLine($"{lineOne} is less than {lineTwo}");
+            }
+
+
+        }
+
 
     }
 }
