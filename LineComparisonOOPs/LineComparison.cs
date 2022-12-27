@@ -57,10 +57,10 @@ namespace LineComparisonOOPs
             }
         }
 
-        public void CompareLines()
+        public void CompareLines()//UC4
         {
-            int lineOne = (int)length();
-            int lineTwo = (int)length();
+            double lineOne = length();
+            double lineTwo = length();
 
             int compareLines = lineOne.CompareTo(lineTwo);
 
