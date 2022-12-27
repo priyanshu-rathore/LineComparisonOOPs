@@ -7,9 +7,8 @@ namespace LineComparisonOOPs{
             System.Console.WriteLine("");
             LineComparisonOOPs line = new LineComparisonOOPs();
 
-            int length = line.length();
+            line.EqualityOfTwoLines();
 
-            System.Console.WriteLine($"length of the line is {length}");
         }
     }
 }
